@@ -26,3 +26,7 @@ tail /var/log/app.logs | p2s.sh
 ```
 head -c 50 /dev/urandom | base64 | ./p2s.sh
 ```
+
+```
+echo 'No code block for me, please!' | ./p2s.sh text
+```
